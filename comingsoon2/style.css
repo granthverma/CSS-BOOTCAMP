@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Rubik+Bubbles&display=swap');
+
+:root{
+  
+    --purple: #5a08d3;
+    --black: #000000; 
+   --white :#edf7f6;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+
+
+body{
+   height: 100%;
+   background-color: var(--purple);
+   font-family: "Rubik Bubbles" ,sans-serif;
+}
+.ONE{
+    font-family: "Rubik Bubbles";
+}
