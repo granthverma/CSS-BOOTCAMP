@@ -1,0 +1,66 @@
+/* 
+POSITION ARE DIFF TYPE
+ 1 static --> kuch nahi hota toh bhi static स्थिर hota ha 
+
+
+ 2 relative to  parents ka according hota ha 
+
+
+ 3 fixed  at one point 
+
+ 4 absolute phle check relative hota ha toh shi nahi toh 
+ html ka root toh h 
+
+ 5 sticky--
+
+
+ spacer
+*/
+body{
+    color: azure;
+}
+
+.container{
+    width: 300px;
+    height :900px;
+    margin: 100px;
+    background-color: greenyellow;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height :100px;
+}
+.red {
+    position: relative;
+    background-color: red;
+    bottom: 0px;
+    left: 200px;
+
+
+}
+.green {
+    background-color: green;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    z-index: 1;
+}
+.blue {
+    background-color: blue;
+    position: fixed;
+    left:0;
+    top: 0;
+    z-index: 3;
+}
+.spacer {
+    height: 300vh;
+}
+
+.pink{
+    position: sticky;
+     background-color: rgb(221, 11, 189);
+     top: 50px;
+   
+}
