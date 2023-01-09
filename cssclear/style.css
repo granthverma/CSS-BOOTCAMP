@@ -1,0 +1,40 @@
+*{box-sizing: border-box;}
+
+.bigbox {
+    width: 400px;
+    height: 400px;
+    background-color: beige;
+
+
+}
+
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    overflow: auto;
+    /* float: left; */
+}
+
+.b1{
+    background-color: red;
+    float: left;
+}
+
+
+.b2{
+    background-color: rgb(37, 9, 179);
+    float: left;
+}
+.b3 {
+    background-color: green;
+    float: left;
+    clear: left;
+}
+
+.b4{
+    background-color: yellow;
+    float: right;
+}
