@@ -1,0 +1,31 @@
+/* css overflow 
+  the css overflow property controls what happens to content
+  that is too big to fit into an area
+
+  visible
+  hidden
+  scroll
+  auto
+
+
+  css float 
+  left 
+  right 
+  v
+
+*/
+.container{
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    overflow: auto;
+  
+}
+.img1{
+  float :left
+  margin :left;
+}
+
+.img2{
+  float: right;
+}
