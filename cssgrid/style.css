@@ -66,3 +66,19 @@
 /* grid template area */
 
 
+#box-1 {
+    grid-area: hdr;
+   
+}
+
+#box-2 {
+    grid-area: sbr;
+}
+
+#box-3 {
+    grid-area: main;
+}
+
+#box-4{
+    grid-area: ftr;
+}
