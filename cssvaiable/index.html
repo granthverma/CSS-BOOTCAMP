@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> css variable</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+   <div class="container">
+    <h1> Frontend Developer</h1>
+    <div class="box">
+        <h2>  What is Front End Development</h2>
+        <p>Everything you see on a website, like buttons, links, animations, and more, were created by a front end web developer. It is the front end developer's job to take the vision and design concept from the client and implement it through code</p>
+</div>
+   <div class="box">
+    <h2> What Skills Do You Need to Become a Front End Developer?</h2>
+    <p>The three main languages you need to know well are HTML, CSS, and JavaScript. From there you can focus on frameworks, libraries, and other useful tools.  </p>
+   </div>
+      <div class="box">
+        <h2> HTML CSS JAVASCRIPT</h2>
+        <p>You should not use HTML for styling. That is what CSS is for.JavaScript allows users to interact with the web page</p>
+      </div>
+   </div>
+
+
+
+     <script>
+        const toggleBtn =document.getElementById ( 'toggle');
+        toggleBtn.onclick =()=>{ 
+            document.body.classList.toggle('dark');
+
+}     </script>
+</body>
+</html>
